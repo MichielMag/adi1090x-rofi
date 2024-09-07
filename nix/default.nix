@@ -2,11 +2,11 @@
 stdenv.mkDerivation (finalAttrs: {
     pname = "adi1090x-rofi";
     version = "0.0.1";
-    
+
     xdg.configFile."rofi".source = nixpkgs.fetchFromGitHub {
         owner = "MichielMag";
         repo = "adi1090x-rofi";
-        rev = "ba970a1f494549c9a4e96b40fa16c74cfc56603f";
+        rev = "e71c14dc42c8dd182b32ff54b0526f01273d801e";
         sha256 = "0000000000000000000000000000000000000000000000000000";
     };
 
